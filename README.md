@@ -4,19 +4,13 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Open+Source+Enthusiast;Always+Learning+New+Things" alt="Typing SVG" />
 </div>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/yourusername?label=Followers&style=social" alt="GitHub followers" />
-</div>
-
 ## 🚀 About Me
 
-- 🔭 I'm currently working on **[Your Current Project]**
-- 🌱 I'm currently learning **[Technology you're learning]**
-- 👯 I'm looking to collaborate on **Open Source Projects**
-- 💬 Ask me about **[Your expertise areas]**
-- 📫 How to reach me: **[your.email@example.com]**
-- ⚡ Fun fact: **[Something interesting about you]**
+- 🔭 I'm currently working on **AI Interviewer**
+- 🌱 I'm currently learning **React**
+- 📫 How to reach me: **sachinjeyakumar7@gmail.com**
+- 💡 Passionate about technology, coding, and building impactful projects.
+- 🚀 Always exploring new tools, frameworks, and ideas to grow as a developer.  
 
 ## 🛠️ Tech Stack
 
@@ -72,9 +66,8 @@
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourhandle)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://yourportfolio.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sachinjeyakumar7@gmail.com)
 
 </div>
 
