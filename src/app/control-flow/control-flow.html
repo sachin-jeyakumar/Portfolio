@@ -1,0 +1,60 @@
+<p>control-flow works!</p>
+
+<input type = "text">
+
+<button (click)="showP()">showP</button>
+<button (click)="hideP()">hideTP</button>
+@if (test==true)
+{
+    <p>paragraph  is visible {{test}}</p>
+}
+@else 
+{
+    <p>paragraph is not visible </p>
+}
+<br>
+
+@if (month=="jan")
+{
+    <span>january</span>
+}
+@else if (month=="feb") 
+{
+    <span>febuary</span>
+}
+<ul>
+    @for (item of city; track $index) 
+    {
+        
+            <li>
+                {{item}}
+            </li>
+        
+    }
+</ul>  
+<p>select city:</p>
+<select name="" id="">
+    @for (item of city; track $index) {
+        <option value="">
+            {{item}}
+        </option>
+    }
+</select>
+<br><br>
+<table border="1">
+    <tr>
+        <th>sl.no</th>
+        <th>name</th>
+        <th>age</th>
+        <th>city</th>
+    </tr>
+    @for (item of stud; track $index) {
+        <tr>
+            <td>{{$index+1}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.age}}</td>
+            <td>{{item.city}}</td>
+        </tr>
+    }
+
+</table>

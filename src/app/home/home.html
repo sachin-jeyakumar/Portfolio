@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <!-- Home Section -->
+    <section class="home">
+        <div class="home-img">
+            <img [src]="imagePath" alt="">
+        </div>
+        
+        <div class="home-content">
+            <h1>Hi, It's <span>Sachin Jeyakumar</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>Enthusiastic Software Systems student passion about coding, problem-solving and software development. Eager to learn and apply technical knowledge in real world projects.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/sachin-j-a2080b2a7" target="_blank" rel="noopener" title="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/sachin-jeyakumar" target="_blank" rel="noopener" title="GitHub Profile"><i class="fa-brands fa-github"></i> </a>
+            </div>
+            <a (click)="scrollToContact()" class="btn">Hire me</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section-content">
+        <div class="section-container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript, Angular, React</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend</h3>
+                    <p>Node.js, Express.js, Python, Java</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Databases</h3>
+                    <p>MySQL, MongoDB</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Other</h3>
+                    <p>Git, GitHub, REST API, Problem Solving</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section-content">
+        <div class="section-container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>M.Sc in Software Systems</h3>
+                    <p class="timeline-period">CTI | 2023 - 2028</p>
+                    <p>Focused on software development, algorithms, and systems engineering.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Higher Secondary</h3>
+                    <p class="timeline-period">Venketalakshimi | 2021 - 2023</p>
+                    <p>Specialized in Computer Science stream.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section-content">
+        <div class="section-container">
+            <h2 class="section-title">Experience</h2>
+            <div class="exp-container">
+                <div class="exp-item">
+                    <h3>Software Developer Intern</h3>
+                    <p class="exp-period">Roftr | MAY 2025 - JUN 2025</p>
+                    <ul>
+                        <li>Developed and optimized Angular components for internal dashboard.</li>
+                        <li>Worked with REST APIs and integrated frontend with backend services.</li>
+                        <li>Improved performance by 20% using lazy loading and caching techniques.</li>
+                    </ul>
+                </div>
+                <div class="exp-item">
+                    <h3>Freelance Projects</h3>
+                    <p class="exp-period">2025 - Present</p>
+                    <ul>
+                        <li>Built responsive portfolio websites for clients using Angular & React.</li>
+                        <li>Implemented live chat and authentication systems.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section-content contact-section">
+        <div class="section-container">
+            <h2 class="section-title">Contact</h2>
+            <p class="contact-intro">If you'd like to work together or have any questions, feel free to reach out!</p>
+            
+            <div class="contact-info">
+                <p><strong>Email:</strong> sachinjeyakumar7&#64;gmail.com</p>
+                <p><strong>Phone:</strong> +91 99449 00111</p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sachin-j-a2080b2a7" target="_blank" rel="noopener">linkedin.com/in/sachin-j-a2080b2a7</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/sachin-jeyakumar" target="_blank" rel="noopener">github.com/sachin-jeyakumar</a></p>
+            </div>
+        
+            <form class="contact-form" (ngSubmit)="sendEmail($event)">
+                <input 
+                    type="text" 
+                    placeholder="Your Name" 
+                    required
+                    [(ngModel)]="contactForm.name"
+                    name="name">
+                <input 
+                    type="email" 
+                    placeholder="Your Email" 
+                    required
+                    [(ngModel)]="contactForm.email"
+                    name="email">
+                <textarea 
+                    placeholder="Your Message" 
+                    rows="5" 
+                    required
+                    [(ngModel)]="contactForm.message"
+                    name="message"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
